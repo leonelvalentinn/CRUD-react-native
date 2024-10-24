@@ -1,4 +1,4 @@
-import { IconHanger, IconHome } from '@tabler/icons-react-native'
+import { IconHanger, IconHome, IconUser } from '@tabler/icons-react-native'
 import { Tabs } from 'expo-router'
 
 export default function TabsLayout() {
@@ -24,6 +24,13 @@ export default function TabsLayout() {
         options={{
           title: 'Products',
           tabBarIcon: ({ color }) => <IconHanger color={color} />
+        }}
+      />
+      <Tabs.Screen
+        name='profile'
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color }) => <IconUser color={color} />
         }}
       />
     </Tabs>
