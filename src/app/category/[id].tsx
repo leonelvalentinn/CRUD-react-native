@@ -1,6 +1,5 @@
 import { CardProduct } from '@/components/CardProduct'
 import { ScreenLayout } from '@/components/ScreenLayout'
-import { Product } from '@/types/product'
 import { gql, useQuery } from '@apollo/client'
 import { Stack, useLocalSearchParams } from 'expo-router'
 import { ActivityIndicator, FlatList, View } from 'react-native'
@@ -21,8 +20,6 @@ export default function ProductsCategory() {
   `
 
   const { data, loading } = useQuery(CATEGORY_QUERY)
-
-  console.log(data)
 
   return (
     <ScreenLayout>
