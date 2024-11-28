@@ -16,6 +16,14 @@
       ]
     ],
     "name": "CRUD-react-native",
-    "slug": "CRUD-react-native"
+    "slug": "CRUD-react-native",
+    "extra": {
+      "eas": {
+        "projectId": "3c4066b3-e898-4ce0-9c16-99b027fab785"
+      }
+    },
+    "android": {
+      "package": "com.leonelvalentinn.eccommerce"
+    }
   }
 }

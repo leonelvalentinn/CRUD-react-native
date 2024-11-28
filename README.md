@@ -12,3 +12,9 @@ npx create-expo-app -e with-router-tailwind
 npm i react-native-reanimated-carousel
 npx expo install react-native-reanimated react-native-gesture-handler
 ```
+
+# Install eas
+```sh
+npm install -g eas-cli
+eas login
+```
